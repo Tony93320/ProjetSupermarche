@@ -11,6 +11,7 @@ package classesMetier;
  */
 public class secteur 
 {
+    // Ton erreur est ici
     private int unSecteur;
     private String nomSecteur;
     
@@ -18,5 +19,19 @@ public class secteur
     {
         unSecteur= unId;
         nomSecteur= unNom;
+    }
+
+    /**
+     * @return the unSecteur
+     */
+    public int getUnSecteur() {
+        return unSecteur;
+    }
+
+    /**
+     * @return the nomSecteur
+     */
+    public String getNomSecteur() {
+        return nomSecteur;
     }
 }
