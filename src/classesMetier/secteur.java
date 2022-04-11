@@ -13,4 +13,10 @@ public class secteur
 {
     private int unSecteur;
     private String nomSecteur;
+    
+    public secteur( int unId, String unNom)
+    {
+        unSecteur= unId;
+        nomSecteur= unNom;
+    }
 }
