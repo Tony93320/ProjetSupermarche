@@ -9,6 +9,8 @@ package classesMetier;
  *
  * @author ANTHONY
  */
-public class secteur {
+public class secteur 
+{
     private int unSecteur;
+    private String nomSecteur;
 }
